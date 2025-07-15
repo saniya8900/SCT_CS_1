@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Caesar Cipher | SkillCraft</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ✅ HEADER / NAV -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">🔐 Caesar Cipher</div>
+    </nav>
+  </header>
+
+  <!-- ✅ MAIN APP -->
+  <main id="app" class="app-container">
+    <h1>Caesar Cipher Tool</h1>
+    <p class="author">By Saniya Kazim | SkillCraft Internship</p>
+
+    <div class="mode-switch">
+      <button id="encryptBtn" class="active" onclick="setMode('encrypt')">Encrypt</button>
+      <button id="decryptBtn" onclick="setMode('decrypt')">Decrypt</button>
+    </div>
+
+    <textarea id="message" placeholder="Type your message here..."></textarea>
+    <input type="number" id="shift" placeholder="Enter shift (e.g. 3)" />
+
+    <button class="process-btn" onclick="processText()">🚀 Run Cipher</button>
+
+    <div id="resultBox" class="hidden">
+      <h3>🔎 Output:</h3>
+      <p id="outputText"></p>
+      <button class="copy-btn" onclick="copyText()">📋 Copy</button>
+    </div>
+  </main>
+
+  <!-- ✅ FOOTER -->
+  <footer>
+    <p>© 2025 Saniya Kazim | SkillCraft Internship Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
