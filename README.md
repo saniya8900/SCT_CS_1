@@ -25,7 +25,7 @@ CSS3 – Custom design and layout
 JavaScript (ES6) – Cipher logic and interaction
 
 🚀 Live Demo
-🔗 Click here to view the live project (Replace with GitHub Pages or Netlify link)
+🔗 https://saniya8900.github.io/SCT_CS_1/
 
 
 
@@ -39,7 +39,7 @@ SCT_CS_1/
 👩‍💻 Author
 Saniya Kazim
 🌱 SkillCraft Internship 2025 – Task 1
-🔗 LinkedIn Profile (optional)mnbfhjbfhjhjsdbfhjsdbvhjsdhjdshjdshjsdhjsdbvhjsdbvjhdsbvhjdv
+🔗 LinkedIn Profile (https://www.linkedin.com/in/saniya-kazim-562730374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 📜 License
 This project is open source and free to use under the MIT License.
